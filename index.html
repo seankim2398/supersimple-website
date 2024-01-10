@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sean Kim's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2dc4c71116.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" alt="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>
+            Hi, my name is <name>Sean Kim</name><br />from <blue>Chicago</blue>,
+            <red>Illinois</red>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!------------------------------about--------------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              fugit ea quia commodi officia ipsum veniam ipsam pariatur nisi,
+              expedita corporis consequatur error saepe a minus suscipit dolore
+              quidem adipisci vero voluptates earum. Saepe dicta modi velit aut.
+              Alias, reprehenderit nulla labore harum recusandae velit
+              voluptatum similique temporibus accusantium cum expedita veritatis
+              doloribus deserunt mollitia, praesentium commodi nesciunt
+              blanditiis, unde autem? Distinctio cum, quibusdam aliquam
+              voluptatum dignissimos fugiat voluptas incidunt tempore quidem
+              aliquid dolor aut eos ex. Inventore aperiam ab earum, officia
+              libero ratione corrupti placeat aut iste obcaecati vel dicta vitae
+              minus totam modi dignissimos odio similique eveniet sunt!
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Video Game Development</span><br />Creating Video Games
+                </li>
+                <li><span>Web Development</span><br />Web app Development</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Jan 2022 - Sep 2023</span><br />Salesforce Developer
+                </li>
+                <li>
+                  <span>June 2021 - Aug 2021</span><br />Autonomous Drone
+                  Navigation Research Intern
+                </li>
+                <li>
+                  <span>Aug 2018 - Feb 2020</span><br />Consultation Agent
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Aug 2019 - Dec 2021</span><br />University of Illinois
+                  at Chicago
+                </li>
+                <li>
+                  <span>Aug 2017 - May 2019</span><br />College of Lake County
+                </li>
+                <li>
+                  <span>Aug 2013 - May 2017</span><br />Grayslake Central High
+                  School
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------portfolio--------------------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.jpg" />
+            <div class="layer">
+              <h3>Stick RPG</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                impedit explicabo aut laborum, delectus, deleniti ut corporis
+                voluptate pariatur consequatur consequuntur sunt ducimus totam
+                autem labore, repellendus natus rem provident incidunt aliquid
+                quis blanditiis! Magnam nobis fugiat provident mollitia facere
+                eaque praesentium perspiciatis. A quia aliquid, in nemo
+                blanditiis obcaecati?
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.jpg" />
+            <div class="layer">
+              <h3>PlaceHolder</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                impedit explicabo aut laborum, delectus, deleniti ut corporis
+                voluptate pariatur consequatur consequuntur sunt ducimus totam
+                autem labore, repellendus natus rem provident incidunt aliquid
+                quis blanditiis! Magnam nobis fugiat provident mollitia facere
+                eaque praesentium perspiciatis. A quia aliquid, in nemo
+                blanditiis obcaecati?
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.jpg" />
+            <div class="layer">
+              <h3>PlaceHolder</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                impedit explicabo aut laborum, delectus, deleniti ut corporis
+                voluptate pariatur consequatur consequuntur sunt ducimus totam
+                autem labore, repellendus natus rem provident incidunt aliquid
+                quis blanditiis! Magnam nobis fugiat provident mollitia facere
+                eaque praesentium perspiciatis. A quia aliquid, in nemo
+                blanditiis obcaecati?
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!------------------------------contact--------------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> seankim2398@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 1-224-645-8065</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/seankim2398/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/seankim2398"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="images/Sean Kim Resume.docx" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy Sean Kim</p>
+      </div>
+    </div>
+
+    <!------------------------------scripts--------------------------------->
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwizHBrrhJWs0-6qu3AGXK-mc_zQgS4G4P3Nn9fMK5csgWqWAJlrVPwMY1hiyQPdjZczw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
