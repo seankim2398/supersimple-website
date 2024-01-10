@@ -380,6 +380,10 @@ nav .fa-solid {
         font-size: 40px;
     }
 
+    .tab-links {
+        margin-right: 22px;
+    }
+
     .about-col-1, .about-col-2 {
         flex-basis: 100%;
     }
@@ -390,6 +394,7 @@ nav .fa-solid {
 
     .about-col-2 {
         font-size: 14px;
+        overflow: auto;
     }
 
     .contact-left, .contact-right {
