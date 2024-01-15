@@ -196,7 +196,7 @@
         </div>
       </div>
       <div class="copyright">
-        <p>Copyright &copy Sean Kim</p>
+        <p>Copyright &copy Sean Kim <a href="" id="secret"><i class="fa-solid fa-heart"></i></a></p>
       </div>
     </div>
 
@@ -228,6 +228,17 @@
         sidemenu.style.right = "-200px";
       }
     </script>
+    <script>
+      let clickCount = 0;
+      document.getElementById("secret").addEventListener("click", function(event) {
+        event.preventDefault();
+        clickCount++;
+        if (clickCount === 3) {
+          window.location.href = "secret0.html";
+          clickCount = 0;
+        }
+      });
+      </script>
     <script>
       const scriptURL =
         "https://script.google.com/macros/s/AKfycbwizHBrrhJWs0-6qu3AGXK-mc_zQgS4G4P3Nn9fMK5csgWqWAJlrVPwMY1hiyQPdjZczw/exec";
