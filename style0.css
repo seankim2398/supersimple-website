@@ -173,10 +173,14 @@ nav .fa-solid {
         margin: 25px;
     }
 
-    nav img {
+    #booboo {
         width: 100px;
         margin-top: 5%;
         margin-left: 80%;
+    }
+
+    .contact-left, .contact-right {
+        flex-basis: 100%;
     }
 
 }
